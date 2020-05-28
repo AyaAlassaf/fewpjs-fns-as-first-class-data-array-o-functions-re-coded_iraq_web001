@@ -21,4 +21,9 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 }
-let routine=[  wakeDog, leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+let routine=[  wakeDog, leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+function exerciseDog(dogName,dogBreed){
+ for(i=0;i<routine.length;i++){
+   
+ } 
+}
