@@ -29,4 +29,4 @@ function exerciseDog(dogName,dogBreed){
  }
  return newArr;
 }
-exerciseDog('by')
+exerciseDog('byron','poodle',routine)
