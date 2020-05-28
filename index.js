@@ -26,6 +26,7 @@ function exerciseDog(dogName,dogBreed){
   let newArr=[];
  for(i=0;i<routine.length;i++){
    newArr.push(routine[i](dogName,dogBreed))
+ }
    
  } 
 }
