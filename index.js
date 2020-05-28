@@ -27,6 +27,5 @@ function exerciseDog(dogName,dogBreed){
  for(i=0;i<routine.length;i++){
    newArr.push(routine[i](dogName,dogBreed))
  }
-   
- } 
+ return newArr;
 }
